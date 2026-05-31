@@ -21,7 +21,7 @@ Method:
 
 Why useful: This extends close reading into a reproducible source-attribution analysis.
 
-Literature anchors: Pareti et al. on quotation attribution; Entman on framing.
+Literature anchors: Entman on framing; Matthes and Kohring on reliable frame indicators; Pareti et al. on quotation attribution.
 
 ## Research Extension 2: Actor Naming and Geopolitical Distance
 
@@ -36,7 +36,7 @@ Method:
 
 Why useful: It operationalizes a thesis-style qualitative observation as a corpus question.
 
-Literature anchors: Biber on distributional register comparison; Baker et al. on corpus-assisted CDA.
+Literature anchors: Biber on distributional register comparison; Gabrielatos and Baker on media collocation analysis; Baker et al. on corpus-assisted CDA.
 
 ## Research Extension 3: Conditional Opportunity Frames
 
@@ -51,7 +51,7 @@ Method:
 
 Why useful: This is a strong bridge between policy interpretation and measurable discourse patterns.
 
-Literature anchors: Entman on salience and selection; Card et al. on media-frame annotation.
+Literature anchors: Entman on salience and selection; Card et al. on media-frame annotation; Flint and Zhu on connectivity, cooperation, and hegemonic competition.
 
 ## Research Extension 4: Stance Beyond Sentiment
 
@@ -66,7 +66,7 @@ Method:
 
 Why useful: News discourse often has mixed stance. A text may be positive toward infrastructure, cautious toward debt, and supportive of governance safeguards.
 
-Literature anchor: Mohammad et al. on target-sensitive stance detection.
+Literature anchors: Biber and Finegan on stance marking; Mohammad et al. on target-sensitive stance detection; Kucuk and Can plus Aldayel and Magdy for stance-detection survey guidance.
 
 ## Research Extension 5: Cross-Outlet or Cross-Period Comparison
 
@@ -81,7 +81,18 @@ Method:
 
 Why useful: This can turn a thesis case study into a comparative computational-linguistics project.
 
-Literature anchor: Baly et al. on media bias modeling and the risks of source-sensitive prediction.
+Literature anchors: Boumans and Trilling on automated content-analysis tool choice; Grimmer and Stewart on validation; Nicholls and Culpepper on computational frame identification.
+
+## Paper-Backed Workflow Upgrade
+
+The enriched repo now treats literature as part of the workflow:
+
+- `data/literature_seed.csv` stores the source, venue, workflow stage, method signal, and researcher action.
+- `results/literature_matrix.md` gives a readable literature table.
+- `results/method_blueprint.md` turns the literature table into a staged research checklist.
+- `scripts/build_collocates.py` adds a simple corpus-assisted discourse analysis step before close reading.
+
+This makes the repository more useful for researchers because method choices are traceable to published work rather than presented as arbitrary script outputs.
 
 ## Immediate Repo Tasks
 
@@ -90,4 +101,3 @@ Literature anchor: Baly et al. on media bias modeling and the risks of source-se
 - Add a script for collocates and target-term comparison.
 - Add a small hand-annotated gold sample.
 - Add a notebook that links metrics, KWIC evidence, and close-reading notes.
-

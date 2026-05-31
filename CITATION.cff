@@ -4,6 +4,6 @@ message: If you use this starter project, please cite it as below.
 type: software
 authors:
   - name: Shakuyo
-version: 0.2.0
+version: 0.3.0
 date-released: 2026-05-31
 license: MIT

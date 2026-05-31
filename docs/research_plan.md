@@ -19,7 +19,7 @@ The repository turns that problem into an open and reusable computational-lingui
 The repo includes two small demo corpora:
 
 - `data/sample_corpus.csv`: a generic register-comparison corpus for lexical metrics.
-- `data/demo_bri_media_corpus.csv`: a synthetic BRI media-discourse corpus for KWIC examples.
+- `data/demo_bri_media_corpus.csv`: a synthetic BRI media-discourse corpus for KWIC and collocate examples.
 
 The demo texts are not evidence for real-world claims. They exist to test and explain the workflow.
 
@@ -35,16 +35,19 @@ The current scripts produce:
 - lexical density
 - frequent bigrams
 - keyword-in-context lines
+- target-term collocates
 - a literature matrix
+- a method blueprint generated from the literature table
 
 ## Method
 
 1. Start with a corpus log and explicit inclusion rules.
 2. Clean text with recorded preprocessing decisions.
 3. Generate descriptive corpus views.
-4. Use KWIC lines to select close-reading evidence.
+4. Use collocates and KWIC lines to select close-reading evidence.
 5. Annotate framing, actor naming, source attribution, modality, and evaluation.
-6. Treat computational outputs as aids to interpretation rather than automatic proof.
+6. Validate annotations and automated outputs against close reading.
+7. Treat computational outputs as aids to interpretation rather than automatic proof.
 
 ## Research Extensions
 
@@ -61,4 +64,3 @@ See `docs/thesis_extension_ideas.md` for details.
 ## Limitations
 
 The included data is tiny and synthetic. Any real study should replace it with licensed or private corpus data, document the source database and search terms, and keep close-reading evidence tied to reproducible corpus outputs.
-

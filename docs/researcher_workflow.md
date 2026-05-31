@@ -56,7 +56,7 @@ Use corpus outputs to guide close reading:
 - source attribution patterns
 - modality and hedging patterns
 
-This repo currently includes simple scripts for lexical metrics and KWIC lines.
+This repo currently includes simple scripts for lexical metrics, collocates, KWIC lines, and literature-to-method outputs.
 
 ## 5. Annotate Interpretable Categories
 
@@ -93,3 +93,14 @@ Good next computational steps include:
 
 Keep human-readable outputs in `results/` so qualitative interpretation remains auditable.
 
+## 8. Tie Each Step to Literature
+
+Use `data/literature_seed.csv` and `results/method_blueprint.md` as a method audit trail.
+
+- Use framing theory before inventing labels.
+- Use corpus-assisted discourse studies before interpreting collocates.
+- Use content-analysis literature before coding frames.
+- Use text-as-data validation literature before making automated claims.
+- Use BRI and ASEAN context literature before interpreting regional strategy.
+
+This is especially important for public research repos: the repository should show not only what the scripts do, but why those operations are methodologically defensible.
