@@ -1,57 +1,83 @@
 # Computational Linguistics Research Starter
 
-This repository is a small, reproducible starter project for computational linguistics research.
+This repository is a reproducible starter project for computational linguistics, corpus linguistics, and corpus-assisted discourse analysis.
 
-The example study asks:
+It began as a small register-comparison demo and has been expanded toward a more research-oriented use case: media discourse, framing, stance, source attribution, and lexical pattern analysis.
 
-> How do simple lexical patterns differ across short text registers?
+## Thesis-Inspired Direction
 
-The project includes a tiny sample corpus, a documented research plan, and a Python analysis script that calculates basic corpus-linguistic measures such as token counts, type-token ratio, lexical density, hapax ratio, and frequent bigrams.
+The project is inspired by an undergraduate graduation thesis titled:
+
+> A Critical Discourse Analysis of The Straits Times' Narratives on the Belt and Road Initiative
+
+The thesis examined The Straits Times' Belt and Road Initiative coverage from 2021 to 2024 using corpus-assisted analysis and close reading. This public repository does not include the private thesis file, copyrighted news articles, or local research data. Instead, it provides reusable open scaffolding for similar research workflows.
+
+## What This Repo Helps With
+
+- Build a clean small corpus workflow.
+- Generate descriptive lexical metrics.
+- Generate keyword-in-context lines for close reading.
+- Keep a literature seed table for computational-linguistics research ideas.
+- Use a starter annotation codebook for media framing and discourse analysis.
+- Document corpus-assisted CDA decisions clearly enough for another researcher to reproduce.
 
 ## Repository Structure
 
 ```text
 .
-├── data/
-│   └── sample_corpus.csv
-├── docs/
-│   └── research_plan.md
-├── results/
-│   └── .gitkeep
-├── scripts/
-│   └── analyze_corpus.py
-├── .gitignore
-├── CITATION.cff
-├── LICENSE
-├── README.md
-└── requirements.txt
+|-- data/
+|   |-- annotation_codebook.csv
+|   |-- demo_bri_media_corpus.csv
+|   |-- literature_seed.csv
+|   `-- sample_corpus.csv
+|-- docs/
+|   |-- research_plan.md
+|   |-- researcher_workflow.md
+|   `-- thesis_extension_ideas.md
+|-- results/
+|   |-- literature_matrix.md
+|   |-- metrics.csv
+|   |-- kwic_bri_terms.csv
+|   |-- summary.md
+|   `-- top_bigrams.csv
+|-- scripts/
+|   |-- analyze_corpus.py
+|   |-- build_kwic.py
+|   `-- build_literature_matrix.py
+|-- CITATION.cff
+|-- LICENSE
+|-- README.md
+`-- requirements.txt
 ```
 
 ## Quick Start
 
-Run the analysis from the repository root:
+Run the lexical metrics demo:
 
 ```bash
 python scripts/analyze_corpus.py
 ```
 
-The script writes:
+Generate keyword-in-context lines for the demo BRI media corpus:
 
-- `results/metrics.csv`
-- `results/top_bigrams.csv`
-- `results/summary.md`
+```bash
+python scripts/build_kwic.py
+```
 
-## Research Use
+Generate the literature matrix:
 
-This starter can be expanded into a more serious project by:
+```bash
+python scripts/build_literature_matrix.py
+```
 
-- replacing the demo corpus with a larger annotated corpus;
-- adding metadata such as date, source, genre, speaker, or proficiency level;
-- comparing registers, authors, learners, or time periods;
-- adding statistical tests and visualizations;
-- documenting data collection and annotation decisions.
+## Useful Starting Points
+
+- `docs/researcher_workflow.md`: a practical workflow for corpus-assisted CDA and media-framing research.
+- `docs/thesis_extension_ideas.md`: research ideas grounded in the thesis direction and authoritative literature.
+- `data/annotation_codebook.csv`: starter labels for framing, actor naming, source attribution, modality, and evaluation.
+- `data/literature_seed.csv`: selected papers and books to orient future extensions.
 
 ## Notes
 
-The sample corpus is intentionally tiny. It is useful for testing the workflow, not for drawing real linguistic conclusions.
+The included corpus files are synthetic demos. They are suitable for testing scripts and explaining method, not for drawing substantive claims about real media coverage.
 

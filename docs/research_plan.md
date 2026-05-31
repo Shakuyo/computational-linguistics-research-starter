@@ -2,35 +2,30 @@
 
 ## Working Title
 
-Lexical Patterns Across Short Text Registers: A Reproducible Computational Linguistics Starter Study
+Corpus-Assisted Analysis of Media Framing and Stance
 
 ## Research Question
 
-How do basic lexical patterns differ across short text registers in a small corpus?
+How can corpus methods and close reading be combined to study media framing, source attribution, stance, and actor naming in a reproducible way?
 
 ## Motivation
 
-Computational linguistics often begins with a carefully prepared text dataset and a reproducible analysis pipeline. This starter project demonstrates that workflow at a small scale. It is designed to be easy to inspect, extend, and publish as a first GitHub repository.
+This starter project is shaped by a thesis-style research problem: how a news outlet constructs narratives around the Belt and Road Initiative through lexical choices, sources, modality, and evaluative framing.
 
-## Data
+The repository turns that problem into an open and reusable computational-linguistics scaffold. It provides synthetic demo data, scripts, codebook templates, and literature anchors without publishing private thesis files or copyrighted news texts.
 
-The demonstration dataset is `data/sample_corpus.csv`.
+## Demonstration Data
 
-Each row represents one short text document with:
+The repo includes two small demo corpora:
 
-- `doc_id`: unique document identifier
-- `register`: broad text type
-- `text`: document content
+- `data/sample_corpus.csv`: a generic register-comparison corpus for lexical metrics.
+- `data/demo_bri_media_corpus.csv`: a synthetic BRI media-discourse corpus for KWIC examples.
 
-The current registers are:
+The demo texts are not evidence for real-world claims. They exist to test and explain the workflow.
 
-- academic
-- news
-- conversation
+## Current Measures
 
-## Measures
-
-The first analysis calculates:
+The current scripts produce:
 
 - document count by register
 - token count
@@ -39,24 +34,31 @@ The first analysis calculates:
 - hapax ratio
 - lexical density
 - frequent bigrams
+- keyword-in-context lines
+- a literature matrix
 
 ## Method
 
-1. Load the corpus from CSV.
-2. Tokenize each document with a transparent regex tokenizer.
-3. Group documents by register.
-4. Calculate descriptive lexical measures.
-5. Export reproducible result files.
+1. Start with a corpus log and explicit inclusion rules.
+2. Clean text with recorded preprocessing decisions.
+3. Generate descriptive corpus views.
+4. Use KWIC lines to select close-reading evidence.
+5. Annotate framing, actor naming, source attribution, modality, and evaluation.
+6. Treat computational outputs as aids to interpretation rather than automatic proof.
+
+## Research Extensions
+
+The most natural extensions are:
+
+- source-mediated framing analysis;
+- actor naming comparison such as China, Chinese, and Beijing;
+- conditional opportunity frames around rules and safeguards;
+- target-specific stance analysis;
+- cross-outlet or cross-period comparison.
+
+See `docs/thesis_extension_ideas.md` for details.
 
 ## Limitations
 
-The sample corpus is too small for real claims. The goal is to demonstrate a clean research workflow. For actual research, replace the sample data with a larger corpus and document data collection, preprocessing, annotation, and ethical considerations.
-
-## Next Steps
-
-- Add a larger corpus.
-- Add POS tagging or dependency parsing.
-- Add visualizations.
-- Add a Jupyter notebook for exploratory analysis.
-- Add tests for the analysis script.
+The included data is tiny and synthetic. Any real study should replace it with licensed or private corpus data, document the source database and search terms, and keep close-reading evidence tied to reproducible corpus outputs.
 

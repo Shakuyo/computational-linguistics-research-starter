@@ -1,0 +1,10 @@
+doc_id,date,outlet,keyword,left_context,right_context
+demo_001,2021-04-12,Demo Daily,Belt,The,and Road Initiative was described as
+demo_001,2021-04-12,Demo Daily,Road,The Belt and,Initiative was described as a platform
+demo_001,2021-04-12,Demo Daily,Initiative,The Belt and Road,was described as a platform for
+demo_002,2022-06-03,Demo Daily,Chinese,Analysts said,investment could support port development while
+demo_003,2023-09-21,Demo Daily,Beijing,,framed the initiative as shared growth
+demo_003,2023-09-21,Demo Daily,initiative,Beijing framed the,as shared growth but regional observers
+demo_004,2024-02-15,Demo Daily,ASEAN,,members may welcome infrastructure finance when
+demo_004,2024-02-15,Demo Daily,rules,members may welcome infrastructure finance when,procurement and dispute settlement are clear
+demo_005,2024-11-08,Demo Daily,governance,managed opportunity with benefits tied to,safeguards and regional trust

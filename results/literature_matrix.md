@@ -1,0 +1,13 @@
+# Literature Matrix
+
+This file is generated from `data/literature_seed.csv`.
+
+| Area | Source | Core Idea | Use in This Repo | Link |
+| --- | --- | --- | --- | --- |
+| register variation | Biber, D. 1988. Variation across Speech and Writing. | Register can be studied through distributions of linguistic features rather than isolated examples. | Supports feature-based comparison across text types, genres, or outlets. | [source](https://www.cambridge.org/core/books/variation-across-speech-and-writing/275CD17A7B5C5D6AD9A199B4D5D94E80) |
+| framing theory | Entman, R. M. 1993. Framing: Toward Clarification of a Fractured Paradigm. | Frames select and make aspects of reality more salient in communication. | Gives the theoretical basis for operationalizing media frames. | [source](https://doi.org/10.1111/j.1460-2466.1993.tb01304.x) |
+| corpus-assisted discourse studies | Baker, P. et al. 2008. A useful methodological synergy? Combining critical discourse analysis and corpus linguistics. | Corpus methods and close reading can be combined to study discourse patterns responsibly. | Directly models the thesis-style workflow used by this project. | [source](https://doi.org/10.1177/0957926508088962) |
+| media-frame annotation | Card, D. et al. 2015. The Media Frames Corpus: Annotations of Frames Across Issues. | Annotated frame corpora can connect qualitative frame theory with computational analysis. | Informs the codebook and possible supervised frame-classification extensions. | [source](https://aclanthology.org/P15-2072/) |
+| stance detection | Mohammad, S. et al. 2016. SemEval-2016 Task 6: Detecting Stance in Tweets. | Stance can be modeled as a target-sensitive relation rather than simple sentiment. | Useful for separating attitude toward China, BRI, ASEAN, governance, or risk. | [source](https://aclanthology.org/S16-1003/) |
+| quote attribution | Pareti, S. et al. 2016. Automatically Detecting and Attributing Indirect Quotations. | Quotation and reported speech can be computationally detected and linked to sources. | Useful for studying how judgments are outsourced to experts, institutions, and documents. | [source](https://aclanthology.org/L16-1615/) |
+| media bias modeling | Baly, R. et al. 2020. We Can Detect Your Bias: Predicting the Political Ideology of News Articles. | Media-level bias modeling needs careful dataset design and source controls. | Warns against overclaiming when modeling outlet-level ideology or framing. | [source](https://aclanthology.org/2020.emnlp-main.404/) |

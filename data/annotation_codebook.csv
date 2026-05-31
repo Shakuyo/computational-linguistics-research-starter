@@ -1,0 +1,15 @@
+dimension,label,definition,decision_rule
+frame,development_platform,BRI is presented as infrastructure connectivity trade growth or practical development.,Use when the main emphasis is material cooperation or economic development.
+frame,strategic_contestation,BRI is presented through competition influence rivalry security or world-order concerns.,Use when geopolitical competition or strategic positioning dominates.
+frame,managed_opportunity,BRI is presented as beneficial only under rules standards safeguards or institutional management.,Use when opportunity is conditional on governance procedures transparency or dispute management.
+frame,risk_or_debt,BRI is presented through risk debt dependency financial vulnerability or project failure.,Use when risk language is central rather than incidental.
+actor_naming,china_state,The actor is named as China Chinese authorities the Chinese government or similar state-level wording.,Use for broad state actor references.
+actor_naming,beijing_government,The actor is named as Beijing.,Use when the wording implies a central-government or geopolitical actor rather than society as a whole.
+source_attribution,expert_or_analyst,Evaluation is attributed to an expert analyst scholar or think-tank source.,Use when the quoted or paraphrased source is a named or institutional expert.
+source_attribution,institution_or_document,Evaluation is attributed to reports policy documents banks courts agencies or official records.,Use when authority comes from an institution or document rather than the journalist.
+modality,hedged_claim,The text uses may might could likely appear suggest or similar uncertainty markers.,Use when certainty is explicitly softened.
+modality,strong_claim,The text presents evaluation as high certainty or necessity.,Use when modal strength is clear through must will cannot inevitable or equivalent wording.
+evaluation,positive_value,The text evaluates BRI or related actors positively.,Use only when the evaluation is explicit or strongly implied.
+evaluation,negative_value,The text evaluates BRI or related actors negatively.,Use only when the evaluation is explicit or strongly implied.
+evaluation,conditional_value,The text balances benefit and risk or makes value dependent on conditions.,Use for cautious yes-but or opportunity-under-rules patterns.
+
