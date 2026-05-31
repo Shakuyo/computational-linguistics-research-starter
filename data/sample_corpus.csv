@@ -1,0 +1,11 @@
+doc_id,register,text
+acad_001,academic,"Corpus analysis can reveal recurring lexical patterns that are difficult to observe through manual reading alone."
+acad_002,academic,"The study compares register variation by measuring token frequency lexical diversity and phrase repetition."
+acad_003,academic,"A transparent computational workflow improves reproducibility and helps researchers inspect each preprocessing decision."
+news_001,news,"City officials announced a new transport plan after residents reported longer travel times during the morning commute."
+news_002,news,"The committee said the proposal will be reviewed next week before a final public vote."
+news_003,news,"Analysts expect the policy change to affect local businesses schools and daily travel."
+conv_001,conversation,"I was going to read the article but I got distracted and forgot where I saved it."
+conv_002,conversation,"That sounds useful because we can check the examples together before the meeting."
+conv_003,conversation,"Maybe we should make a small list first and then decide what to test."
+

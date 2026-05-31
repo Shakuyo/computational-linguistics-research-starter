@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Computational Linguistics Research Starter
+message: If you use this starter project, please cite it as below.
+type: software
+authors:
+  - family-names: Your Name
+    given-names: Your Given Name
+version: 0.1.0
+date-released: 2026-05-31
+license: MIT
+
